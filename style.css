@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--nine-color);
+  font-family: "Caveat", cursive;
+}
+header {
+  width: 100%;
+  height: 90vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid var(--four-color);
+  width: 60%;
+}
+.title {
+  font-family: "Caveat", cursive;
+  color: var(--one-color);
+  font-size: 90px;
+  text-align: center;
+  margin-top: 13%;
+}
+
+:root {
+  --one-color: #fbfdfb;
+  --two-color: #0000ff;
+  --three-color: #000000;
+  --four-color: #80808069;
+  --five-color: #1d1c1c91;
+  --six-color: #4e4e0aa6;
+  --seven-color: #afbe4079;
+  --eight-color: #1d1d0391;
+  --nine-color: #afbe40;
+  --ten-color: #eff8a9;
+  --eleven-color: #04041b86;
+  --twelve-color: #ff0000;
+}
+footer {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: var(--three-color);
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
