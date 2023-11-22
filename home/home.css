@@ -23,15 +23,15 @@ header {
   font-size: 20px;
   padding-top: 5px;
 }
+
 .nav a {
   color: var(--three-color);
-  font-size: 23px;
-  padding-right: 23px;
 }
-.nav a:hover {
-  cursor: pointer;
-  opacity: 0.6;
+.nav a.active::after {
+  width: 73% !important;
+  margin-left: 1px !important;
 }
+
 .title-day,
 .objective-parade {
   color: var(--one-color);

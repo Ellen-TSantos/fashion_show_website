@@ -28,13 +28,12 @@ header {
 
 .nav a {
   color: var(--one-color);
-  font-size: 23px;
-  padding-right: 23px;
 }
-.nav a:hover {
-  cursor: pointer;
-  opacity: 0.6;
+.nav a.active::after {
+  width: 70% !important;
+  margin-left: 2px !important;
 }
+
 .title-location {
   color: var(--one-color);
   font-size: 45px;
@@ -127,4 +126,3 @@ iframe {
   margin-left: 8%;
   margin-bottom: 5%;
 }
-

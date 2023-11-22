@@ -9,19 +9,21 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+    <script src="/event/index.js" defer></script>
+
     <title>Programação dos Desfiles</title>
   </head>
   <body>
     <header>
       <nav class="title-nav">
         <h2 class="title-logotipo">FC 2023</h2>
-        <ul style="list-style: none">
-          <li class="nav">
-            <a href="/home/home.html">Home</a>
-            <a href="/parade_schedule/parade_schedule.html">Programação</a>
-            <a href="/about/about.html">Sobre</a>
-            <a href="/local/local.html">Local</a>
-            <a href="/parade_form/parade_form.html">Formulário</a>
+        <ul class="nav" style="list-style: none">
+          <li>
+            <a href="/home/home.html" onclick="changeActive(event)">Home</a>
+            <a href="/parade_schedule/parade_schedule.html" onclick="changeActive(event)">Programação</a>
+            <a href="/about/about.html" onclick="changeActive(event)">Sobre</a>
+            <a href="/local/local.html" onclick="changeActive(event)">Local</a>
+            <a href="/parade_form/parade_form.html" onclick="changeActive(event)">Formulário</a>
           </li>
         </ul>
       </nav>

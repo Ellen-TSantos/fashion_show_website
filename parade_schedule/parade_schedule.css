@@ -29,13 +29,12 @@ header {
 
 .nav a {
   color: var(--one-color);
-  font-size: 23px;
-  padding-right: 23px;
 }
-.nav a:hover {
-  cursor: pointer;
-  opacity: 0.6;
+.nav a.active::after {
+  width: 85% !important;
+  margin-left: 2px !important;
 }
+
 .title-schedule {
   color: var(--one-color);
   font-size: 48px;
@@ -67,8 +66,8 @@ header {
   margin-top: 2%;
   margin-left: 5%;
 }
-i{
-  color:var(--one-color);
-  font-size:21px; 
-  margin-right:5px;
+i {
+  color: var(--one-color);
+  font-size: 21px;
+  margin-right: 5px;
 }
