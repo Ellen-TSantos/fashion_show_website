@@ -35,18 +35,13 @@ header {
 }
 
 .title-location {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 45px;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-hr {
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid var(--four-color);
-  width: 60%;
-}
+
 img {
   width: 350px;
   height: 300px;
@@ -78,7 +73,7 @@ img:hover {
   font-size: 30px;
 }
 .arrive {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 45px;
   text-align: center;
   margin-top: 5%;
@@ -103,7 +98,7 @@ iframe {
 }
 .title-details {
   text-align: center;
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 34px;
 }
 .info-details {

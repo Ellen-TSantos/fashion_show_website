@@ -36,7 +36,7 @@ header {
 }
 
 .title-schedule {
-  color: var(--one-color);
+  color:#7e2559;
   font-size: 48px;
   text-align: center;
   margin-top: 5%;
@@ -45,7 +45,7 @@ header {
 .title-day {
   margin-top: 4%;
   margin-left: 10%;
-  color: var(--one-color);
+  color:#7e2559;
   font-size: 30px;
 }
 .days {
@@ -67,7 +67,8 @@ header {
   margin-left: 5%;
 }
 i {
-  color: var(--one-color);
+  color: #8f4f74;
   font-size: 21px;
   margin-right: 5px;
 }
+

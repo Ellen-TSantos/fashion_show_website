@@ -34,7 +34,7 @@ header {
 
 .title-day,
 .objective-parade {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 24px;
   text-align: center;
   margin-top: 6%;
@@ -59,7 +59,7 @@ header {
   margin: 7% 30% 6% 40%;
   width: 20%;
   height: 7vh;
-  background-color: var(--one-color);
+  background-color: #f7e0ed;
   color: var(--three-color);
   border: none;
   cursor: pointer;
@@ -81,8 +81,8 @@ header {
   font-size: 28px;
 }
 .title-location {
-  color: var(--one-color);
-  font-size: 40px;
+  color: #7e2559;
+  font-size: 45px;
   text-align: center;
   margin-top: 7%;
 }
@@ -90,7 +90,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: var(--one-color);
+  color:#7e2559;
   font-size: 34px;
   margin-top: 5%;
 }
@@ -108,14 +108,27 @@ header {
   text-align: center;
 }
 .image-copan {
-  width: 550px;
+  width: 540px;
   height: 360px;
   margin-left: 5%;
   margin-bottom: 5%;
-  border: none;
+  border:0;
+  border-radius: 5px 10px 20px 30px;
+  border-bottom: 1px solid var(--four-color);
+  box-shadow: 5px 5px 5px var(--five-color);
+}
+iframe {
+  width: 500px;
+  height: 360px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  border:0;
+  border-radius: 5px 10px 20px 30px;
+  border-bottom: 1px solid var(--four-color);
+  box-shadow: 5px 5px 5px var(--five-color);
 }
 .text {
-  color: var(--one-color);
+  color:#7e2559;
   text-align: center;
   font-size: 38px;
   margin-top: 3%;
@@ -129,7 +142,7 @@ header {
   margin-bottom: 5%;
 }
 .social-networks {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 38px;
   text-align: center;
   margin-bottom: 3%;

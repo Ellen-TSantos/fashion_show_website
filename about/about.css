@@ -34,7 +34,7 @@ header {
   margin-left: 2px !important;
 }
 .phrase-schedule {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 35px;
   text-align: center;
   margin-left: auto;
@@ -45,7 +45,7 @@ header {
 }
 .schedule,
 .name-stylist {
-  color: var(--one-color);
+  color: #7e2559;
   font-size: 35px;
   margin-left: 15%;
 }
