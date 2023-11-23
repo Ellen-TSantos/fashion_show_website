@@ -34,10 +34,11 @@ header {
 
 .title-day,
 .objective-parade {
-  color: #7e2559;
+  color:var(--fourteen-color);
   font-size: 24px;
   text-align: center;
   margin-top: 6%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .day {
   display: flex;
@@ -59,7 +60,7 @@ header {
   margin: 7% 30% 6% 40%;
   width: 20%;
   height: 7vh;
-  background-color: #f7e0ed;
+  background-color:var( --thirteen-color);
   color: var(--three-color);
   border: none;
   cursor: pointer;
@@ -81,18 +82,20 @@ header {
   font-size: 28px;
 }
 .title-location {
-  color: #7e2559;
+  color:var( --fourteen-color);
   font-size: 45px;
   text-align: center;
   margin-top: 7%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .location-name {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color:#7e2559;
+  color:var( --fourteen-color);
   font-size: 34px;
   margin-top: 5%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .location-data {
   display: flex;
@@ -100,6 +103,7 @@ header {
   align-items: center;
   color: var(--two-color);
   font-size: 25px;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .location-data p {
   width: 40%;
@@ -128,11 +132,12 @@ iframe {
   box-shadow: 5px 5px 5px var(--five-color);
 }
 .text {
-  color:#7e2559;
+  color:var(--fourteen-color);
   text-align: center;
   font-size: 38px;
   margin-top: 3%;
   margin-bottom: 2%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .confirmation-card img {
   margin-left: 33%;
@@ -142,10 +147,11 @@ iframe {
   margin-bottom: 5%;
 }
 .social-networks {
-  color: #7e2559;
+  color:var(--fourteen-color);
   font-size: 38px;
   text-align: center;
   margin-bottom: 3%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .icons {
   display: flex;

@@ -64,12 +64,17 @@ hr {
   --ten-color: #eff8a9;
   --eleven-color: #04041b86;
   --twelve-color: #ff0000;
+  --thirteen-color:#f7e0ed;
+  --fourteen-color:#7e2559;
+  --fifteen-color:#8f4f74;
+  --sixteen-color: #5a5959;
 }
 footer {
   margin-top: 2%;
   margin-bottom: 2%;
   color: var(--three-color);
   font-size: 15px;
+  font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }

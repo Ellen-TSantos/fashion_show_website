@@ -34,7 +34,7 @@ header {
   margin-left: 2px !important;
 }
 .phrase-schedule {
-  color: #7e2559;
+  color:var(--fourteen-color);
   font-size: 35px;
   text-align: center;
   margin-left: auto;
@@ -42,19 +42,30 @@ header {
   width: 50%;
   margin-bottom: 5%;
   margin-top: 5%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 .schedule,
 .name-stylist {
-  color: #7e2559;
+  color:var(--fourteen-color);
   font-size: 35px;
   margin-left: 15%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
+
 .text-schedule,
 .text-stylist {
   color: var(--two-color);
   font-size: 28px;
   width: 65%;
   padding: 15px 0px;
+  text-shadow: none;
+}
+.text-stylist{
+  margin-left: 15%;
+}
+.name-text-stylist{
+  display: flex;
+  flex-direction: column;
 }
 
 .schedule1 {

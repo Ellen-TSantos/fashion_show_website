@@ -35,11 +35,12 @@ header {
 }
 
 .title-location {
-  color: #7e2559;
+  color: var(--fourteen-color);
   font-size: 45px;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 
 img {
@@ -73,11 +74,12 @@ img:hover {
   font-size: 30px;
 }
 .arrive {
-  color: #7e2559;
+  color: var(--fourteen-color);
   font-size: 45px;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 7%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 
 .how-to-get {
@@ -87,6 +89,7 @@ img:hover {
   align-items: center;
   height: 380px;
   margin-top: 5%;
+  text-shadow: 0.1em 0.1em 0.2em var(--sixteen-color)
 }
 iframe {
   width: 400px;
@@ -98,7 +101,7 @@ iframe {
 }
 .title-details {
   text-align: center;
-  color: #7e2559;
+  color: var(--fourteen-color);
   font-size: 34px;
 }
 .info-details {
