@@ -111,12 +111,14 @@ iframe {
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+ 
 }
 .details {
   margin-top: 2%;
   margin-bottom: 3%;
   color: var(--two-color);
   font-size: 25px;
+  text-shadow: none;
 }
 .address {
   color: var(--two-color);
