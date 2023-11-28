@@ -1,5 +1,5 @@
 header {
-  background-image: url(/src/assets/img/img-1.png);
+  background-image: url(/src/assets/img/img-home_cup.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@ header {
   color: var(--two-color);
 }
 .image-parading {
-  width: 350px;
+  width: 360px;
   height: 500px;
 }
 .button-form {
