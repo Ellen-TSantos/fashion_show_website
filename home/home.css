@@ -167,4 +167,10 @@ iframe {
   gap: 3%;
   font-size: 25px;
   margin-bottom: 3%;
+ 
+}
+.icons > i:hover{
+  transform: scale(1.8);
+  transition: 500ms;
+  cursor: pointer;
 }
